@@ -16,3 +16,9 @@ table(numArtefactos_int) #Se repite unas 2 veces#
 quantile(numArtefactos_int) #El cuartil es 21.5#
 
 IQR(numArtefactos_int) #El rango intercuartílico es 40#
+#8#
+rango_artefactos <- range(numArtefactos_int)
+rango_artefactos 
+#9#
+var(numArtefactos_int) #La varianza es 927.1026#
+
