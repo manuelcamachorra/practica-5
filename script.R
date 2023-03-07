@@ -11,3 +11,8 @@ moda <- function(numArtefactos_int) {
 }
 moda(numArtefactos_int)
   
+table(numArtefactos_int) #Se repite unas 2 veces#
+
+quantile(numArtefactos_int) #El cuartil es 21.5#
+
+IQR(numArtefactos_int) #El rango intercuartílico es 40#
