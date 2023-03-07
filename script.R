@@ -22,3 +22,6 @@ rango_artefactos
 #9#
 var(numArtefactos_int) #La varianza es 927.1026#
 
+#10#
+sd(numArtefactos_int)
+sqrt(var(numArtefactos_int))  ##La desviación estandar es 30.44836##
